@@ -9,7 +9,6 @@ const Chat = () => {
   const [messages, setMessages] = useState([]);
   const [image, setImage] = useState(null);
   const [isListening, setIsListening] = useState(false);
-  const [selectedChat, setSelectedChat] = useState(null);
   const [refreshSidebar, setRefreshSidebar] = useState(false);
   const recognitionRef = useRef(null);
   const navigate = useNavigate();
@@ -107,7 +106,6 @@ const Chat = () => {
     } else {
       setMessages([]);
     }
-    setSelectedChat(chat);
   };
 
   return (
