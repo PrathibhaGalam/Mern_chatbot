@@ -20,4 +20,8 @@
     "mongoose": "^9.2.4",
     "openai": "^6.27.0"
   }
+  "scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build"
+}
 }
